@@ -1,0 +1,17 @@
+#firstdiv{
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#seconddiv{
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+input{
+    float:text;
+}
