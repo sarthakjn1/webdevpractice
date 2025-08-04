@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact-form_styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h2>Contact Us</h2>
+    </div>
+    <div id="middle">
+        <div id="form-container">
+            <div id="error-container">
+                Fill in your contact details!
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input class="contact" type="text" name="name" id="name" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input class="contact" type="email" name="email" id="email" required>
+                <br>
+                <br>
+                <label for="mobile">Phone:</label>
+                <input class="contact" type="text" name="mobile" id="mobile" minlength="10" maxlength="10" required>
+                <br>
+                <br>
+                <label for="address">Address:</label>
+                <textarea rows="3" cols="15" name="address" id="address"></textarea>
+                <br>
+                <br>
+                <label for="reason">Reason:</label>
+                <textarea rows="3" cols="15" name="reason" id="reason"></textarea>
+                <br>
+                <br>
+                <br>
+                <button id="submit-button" type="button" onclick="validateAndProcess()">Submit
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h5>Developed by Codejunkies</h5>
+    </div>
+    <script src="formsubmit.js"></script>
+</body>
+
+</html>
