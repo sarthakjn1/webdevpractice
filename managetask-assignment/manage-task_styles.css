@@ -1,0 +1,36 @@
+#upper-div{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#lower-div{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#add-button{
+    margin-left: 30px;
+}
+
+#tasks-div{
+
+}
+
+.task-name{
+    margin-right: 30px;
+}
+
+.task-button{
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+#task-data{
+    font-size: medium;
+    margin-right: 20px;
+}
