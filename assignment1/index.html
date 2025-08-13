@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Visit Us Page</title>
+</head>
+
+<body>
+    <div id="header" style="display: flex; width:100%; height:15%;">
+        <div id="img-container" style="width:20%; height: 100%;border: 1px solid #000">
+            <img src="./img/logo.avif" style="width:50%; height:80%" alt="Icon">
+        </div>
+        <div id="right-container" style="width:80%; height: 100%;border: 1px solid #000">
+            <span style="margin-top: 30px; margin-right:20px; float: right;">
+                <a href="./about_us.html">About us|</a>
+                <a href="./contact_us.html">Contact us|</a>
+                <a href="./home.html">Home</a>
+            </span>
+        </div>
+    </div>
+    <div id="middle-panel" style="display: flex; width:100%; height:70%; border: 1px solid #000">
+        <div id="left-panel" style="width:20%; height:100%; border: 1px solid #000">
+            <h3 style="text-align: center; padding-top: 50%;"> Left Panel</h3>
+        </div>
+        <div id="right-panel" style="width:80%; height:100%; border: 1px solid #000">
+            <h2 style="text-align: center;"> User Registration</h2>
+            <form style="text-align: center;">
+                <div>
+                    <label for="user_name">Name:</label>
+                    <input type="text" name="user_name" id="user_name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="user_email">
+                        Email:
+                    </label>
+                    <input type="email" name="user_email" id="user_email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="user_pwd">Password:</label>
+                    <input type="password" name="user_pwd" id="user_pwd" required>
+                </div>
+                <br>
+                <div>
+                    <span>
+                        Gender:
+                    </span>
+                    <input type="radio" name="gender" id="male" value="email">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="reason">Reason for visiting us:</label>
+                    <select name="reason" id="reason">
+                        <option value="prod-enquiry">Enquire about a product</option>
+                        <option value="prod-service">Enquire about a service</option>
+                        <option value="careers">Know about opportunities to join us</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <input style="margin-right: 20px;" type="reset" value="Clear Form">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer" style="display: flex; width:100%; height:15%; border: 1px solid #000">
+        <div id="footer-left" style="width:30%; height:100%">
+            <p>This is the registration page for ABC Limited. Welcome to this page. Cannot contact us? Reach out to us on pohone: abcdefghi</p>
+        </div>
+        <div id="footer-right" style="width:70%; height:100%">
+            <span style="margin-top: 30px; margin-right:20px; float: right;">
+                <a href="./about_us.html">About us|</a>
+                <a href="./contact_us.html">Contact us|</a>
+                <a href="./home.html">Home</a>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
