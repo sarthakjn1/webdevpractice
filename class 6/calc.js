@@ -21,8 +21,3 @@ function performCalculation(action, first, second) {
         document.getElementById("finalresult").innerHTML = first * second;
     }
 }
-
-function submitForm(event){
-    event.preventDefult();
-    return false;
-}
